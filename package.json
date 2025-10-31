@@ -2,11 +2,11 @@
   "name": "ts-template",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "type": "module",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "npx tsx watch ./src/main.ts"
+    "dev": "npx tsx watch ./src/main.ts",
+    "start": "node ."
   },
   "keywords": [],
   "author": "",
